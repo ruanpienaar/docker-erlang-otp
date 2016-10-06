@@ -28,7 +28,7 @@ RUN set -xe \
 	&& apt-get purge -y --auto-remove $buildDeps \
 	&& rm -rf /usr/src/otp-src /var/lib/apt/lists/*
 
-CMD ["erl"]
+#CMD ["erl"]
 
 # extra useful tools here: rebar & rebar3
 
